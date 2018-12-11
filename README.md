@@ -38,8 +38,22 @@ For example, if we were to comiple "HelloWorld.scala", we would do *> scalac Hel
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+Scala standard library includes core types like Int, Float, Array or Option. 
+
+Notable packages also includes:
+
+scala.collection and its sub-packages contain Scala's collections framework
+- scala.collection.immutable - *Vector, List, Range, HashMap or HashSet*
+- scala.collection.mutable - *ArrayBuffer, StringBuilder, HashMap or HashSet*
+- scala.collection.concurrent - *TrieMap*
+- scala.collection.parallel.immutable - *ParVector, ParRange, ParHashMap or ParHashSet*
+- scala.collection.parallel.mutable - *ParArray, ParHashMap, ParTrieMap or ParHashSet*
+- scala.concurrent - *Futures and Promises*
+
+scala.io - *Input and output operations* <br>
+scala.math - *Basic math functions and additional numeric types like BigInt and BigDecimal* <br>
+scala.sys - *Interaction with other processes and the operating system* <br>
+scala.util.matching - *Regular expressions* <br>
 
 ## About open source library
 
