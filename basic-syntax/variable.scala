@@ -19,23 +19,12 @@ object variable {
 
     println (a)
 
-    //list
-    val fruits = List("apples", "oranges", "pears")
-    println(fruits(0))
+    //Type Declaration
+    var num : Int = 0
+    val num1 : Float = 1
+    val num2 : Double = 2.3
+    var name : String = "Rico"
+    var name1 : Char = 'H'
 
-    //2 dimensions
-    val dim = List(
-      List(1, 0, 0),
-      List(0, 1, 0),
-      List(0, 0, 1)
-    )
-
-    println (dim)
-
-    val dim2 = (1 :: (0 :: (0 :: Nil))) ::
-      (0 :: (1 :: (0 :: Nil))) ::
-      (0 :: (0 :: (1 :: Nil))) :: Nil
-
-    println(dim2)
   }
 }
