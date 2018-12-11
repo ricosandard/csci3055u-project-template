@@ -1,7 +1,7 @@
-# _Your project title_
+# Final Project - CSCI3055U - Scala
 
-- _your name_
-- _your email (uoit.net)_
+- Tran Tien Anh Ta
+- trantienanh.ta@uoit.net
 
 ## About the language
 
