@@ -1,5 +1,3 @@
-import scala.math
-
 object math {
   def main(args : Array[String]){
     //rounding
