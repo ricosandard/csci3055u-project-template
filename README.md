@@ -16,26 +16,25 @@
 
 **Snippets** (Interesting features about Scala):
 1. Scala can import libraries anywhere in the code, unlike Java import statements only being at the top.
-2. Scala does not have any operators.
+2. Type declarations are done after the value. 
 3. Methods can have multiple parameter lists.
 4. In Scala, it is possible to define methods in methods.
-5. Variable declare types are put after the variable names.
 
 ## About the syntax
 
-> _give some code snippet of the language_
-
-*Let form*
-
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
+*HelloWorld.scala*
+```Scala
+object HelloWorld extends App {
+   println("Hello, World!")
+ }
 ```
 
 ## About the tools
+For beginners to Scala, there are two most widely known tools that are advertised on Scala main website. The easy to set up and use **IntelliJ** or **SBT**. IntelliJ is an IDE that handles compiling Scala files and downloads Scala SDK as a plugin. It the most beginner friendly option. The other is SBT, the open-source build tool for Scala projects. 
 
-> _Describe the compiler or interpreter needed_.
+Though normally using the Simple Build Tool (SBT) to build Scala applications, more basic tools can be use to compile and run scala programs instead, like Scalac. **Scalac** is the Scala compiler and works like most comilers, t takes a source file as argument, maybe some options, and produces one or several object files. The object files it produces are standard Java class files. Once compiled, a Scala program can be run using the **scala** command, it is very similar to the java command used to run Java programs.
+
+For example, if we were to comiple "HelloWorld.scala", we would do *> scalac HelloWorld.scala*. This will generate a few class files in the current directory. One of them will be called HelloWorld.class, and contains a class which can be directly executed using the scala command. To execute, we would type *> scala -classpath . HelloWorld*. This would output *Hello, world!*.
 
 ## About the standard library
 
