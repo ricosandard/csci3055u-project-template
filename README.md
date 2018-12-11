@@ -57,12 +57,34 @@ scala.util.matching - *Regular expressions* <br>
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+**Vegas**
+Description: Vegas is the MatPlotLib of Scala, this means Vegas is specifically designed for plotting. Vegas excel at the visualization of big data and their analysis.
+
+**ENSIME**
+Description: ENSIME brings IDE-like features of Scala and Java to text editors. Those features include: 
+1. Show inferred types
+2. Contextual completion
+3. Semantic highlighting with implicit expansions
+4. Jump to source code or documentation
+5. Refactorings (rename, organise imports)
+6. Errors and warnings in your code (i.e. “red squigglies”).
 
 # Analysis of the language
 
 > _Organize your report according to the project description
 document_.
+**Style**: Scala is a general programming language and as such you can find it being implemented in different kinds of open-sourced projects. Of those projects, the syntax are familiar to Java in that Scala is object-oriented, but different in that Scala supports functional programming. 
 
+**Macros**: Scala allows for meta-programming such as macros, though the average users will most likely use one of Scala many libraries that incorporate macros instead of implementing their own macros. This is because libraries that uses macros such as spire, to avoid expensive runtime allocations and method calls, or ScalaTest, to surface source context information like variable names, file names and line numbers, have powerful constructs which are fully type safe.
 
+**Symbol resolution**: Symbolic operators in Scala can be divided in to four categories Keywords/reserved symbols, Automatically imported methods, Common methods and Syntactic sugars/composition. The exact meaning of different symbols depend on the class that is defining them. For example, *<=* on *Int* means "less than or equal to". There are known problem with IntelliJ IDE of it not being able to resolved symbols that sbt could. 
+
+**Closure**: Scala completely supports Closure, but there is a difference when you capture a var or a val. For val, the closure class contains a copy of the val. For var, the declaration of the var itself has to be changed at the call site location.
+
+**Scoping rules**: Scala suports lexcial scoping.
+
+**Type system**: Scala has a stong Static system.
+
+**Strengths**: Scala has simple and straightforward syntax, meaning a complex code in Java can be written for much less in Scala. It is also highly functional and fast as Scala was intended for resource-heavy back end development. In short, Scala is faster, simpler and as powerful as Java.
+
+**Weaknesses**: Scala community are not as strong or developed like Java. The documentations are also limited and hard to understand. Not only that, since Java 8, the future of Scala as a language has come to question as many of the things Scala could do and Java can't has been implemented in Java 8. 
