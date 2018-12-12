@@ -59,10 +59,10 @@ scala.util.matching - *Regular expressions* <br>
 ## About open source library
 Some examples of Specialized Libraries outside of the standard libraries are:
 
-**Vegas**
+**Vegas** <br>
 Description: Vegas is the MatPlotLib of Scala, this means Vegas is specifically designed for plotting. Vegas excel at the visualization of big data and their analysis.
 
-**ENSIME**
+**ENSIME**<br>
 Description: ENSIME brings IDE-like features of Scala and Java to text editors. Those features include: 
 1. Show inferred types
 2. Contextual completion
@@ -71,7 +71,7 @@ Description: ENSIME brings IDE-like features of Scala and Java to text editors. 
 5. Refactorings (rename, organise imports)
 6. Errors and warnings in your code (i.e. “red squigglies”).
 
-**Cats**
+**Cats**<br>
 Description: Cats is a library which provides abstractions for functional programming in the Scala programming language. The name is a playful shortening of the word category
 
 # Analysis of the language
